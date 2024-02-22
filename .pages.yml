@@ -47,3 +47,7 @@ content:
       - name: theme
         label: Theme
         type: string
+  - name: cname
+    label: CNAME domain
+    path: CNAME
+    type: file
