@@ -22,11 +22,8 @@ content:
         type: rich-text
       - name: tags
         label: Tags
-        type: object
-        fields:
-          - name: tag
-            label: Tag
-            type: string
+        type: string
+        list: true
   - name: config
     label: Jekyll config
     path: _config.yml
