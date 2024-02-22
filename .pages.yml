@@ -40,6 +40,11 @@ content:
         label: Website URL
         type: string
         pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
+      - name: baseurl
+        label: Base Link
+        type: string
+        default: ""
+        description: the blog's "icon" link
       - name: cover
         label: Preview image
         type: image
@@ -47,6 +52,10 @@ content:
       - name: theme
         label: Theme
         type: string
+      - name: gems
+        label: Gems
+        type: string
+        list: true
   - name: cname
     label: CNAME domain
     path: CNAME
