@@ -4,7 +4,7 @@ content:
     path: _posts
     type: collection
     view:
-      fields: [ title, published, date ]
+      fields: [ title, date ]
     fields:
       - name: published
         label: Published
@@ -19,6 +19,13 @@ content:
       - name: body
         label: Body
         type: rich-text
+      - name: tags
+        label: Tags
+        type: object
+        fields:
+          - name: tag
+            label: Tag
+            type: string
   - name: config
     label: Jekyll config
     path: _config.yml
