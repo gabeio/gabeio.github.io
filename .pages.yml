@@ -53,7 +53,11 @@ content:
         label: Theme
         type: string
       - name: gems
-        label: Gems
+        label: Gems (build settings)
+        type: string
+        list: true
+      - name: exclude
+        label: Exclude (build settings)
         type: string
         list: true
   - name: cname
