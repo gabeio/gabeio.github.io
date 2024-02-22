@@ -3,5 +3,3 @@ content:
     label: Posts
     path: src/_posts
     type: collection
-    fields:
-      - title
