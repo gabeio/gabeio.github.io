@@ -51,3 +51,7 @@ content:
     label: CNAME domain
     path: CNAME
     type: file
+    fields:
+      - name: domain
+        label: Domain
+        type: string
