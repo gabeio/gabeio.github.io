@@ -4,6 +4,7 @@ content:
     path: _posts
     type: collection
     filename: '{year}-{month}-{day}-{primary}.md'
+    subfolders: false
     view:
       fields: [ title, date ]
     fields:
